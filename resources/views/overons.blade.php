@@ -7,16 +7,22 @@
     <title>Over ons</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <style>
         html,body {
             padding: 10px;
+            font-family: Roboto;
         }
 
         main {
             padding-top: 60px;
+            padding-left: 15%;
+            padding-right: 15%;
         }
+
         /* Style the header links */
         .header a {
             float: left;
@@ -37,7 +43,7 @@
 
         /* Style the active/current link*/
         .header a.active {
-            background-color: dodgerblue;
+            background-color: darkgoldenrod;
             color: white;
         }
 
@@ -53,7 +59,7 @@
                 display: block;
                 text-align: left;
             }
-            .header-right {
+            .header-left {
                 float: none;
             }
         }
@@ -62,9 +68,32 @@
             text-align: center;
         }
 
-        main {
-            padding-left: 30px;
-            padding-right: 30px;
+        .table-msg {
+            padding: 0;
+            margin: 0;
+        }
+
+        .text-left {
+            margin-right: 20%;
+            margin-top: -10%;
+        }
+
+        .text-right {
+            margin-left: 80%;
+            margin-top: -10%;
+            background-color: antiquewhite;
+        }
+
+        .table-msg {
+            margin-top: 20%;
+        }
+
+        footer {
+            text-align: center;
+            background-color: lightgray;
+            padding: 60px;
+            margin: -20px;
+            margin-top: 30px;
         }
     </style>
 </head>
@@ -84,22 +113,66 @@
     </div>
 </header>
 <main>
-    <h2 class="subheaders-h2">HET HOUDEN VAN BIJEN!</h2>
-    <p>De imkervereniging Oegstgeest en omstreken strekt zich uit over de regio Oegstgeest, Leiden, Lisse, Leimuiden
-        en Alkemade. De imkervereniging stelt zich ten doel de kennis over het houden van bijen en de relatie van
-        bijen met hun (planten) omgeving te verbreden bij zowel de imkers, als bij het grotere publiek.
-    </p>
-    <br>
-    <h2 class="subheaders-h2">Onze activiteiten</h2>
-    <p>
-        - Het geven van cursussen over het houden van bijen (zie de pagina ‘basiscursus‘)
-        - Het organiseren van lezingen op informatieavonden voor de beginnende imkers
-        - Wij stellen beginnende imkers in de gelegenheid om informatie te krijgen van ervaren imkers tijdens informatieavonden en ochtenden, zoals ‘de imkerhoek’
-        - Wij versturen  interessante artikelen over het houden van bijen (zie de pagina artikelen)
-    </p>
+    <div class="text-right">
+        <div class="table-msg">
+            <p>MEEST RECENTE BERICHTEN</p>
+            <p>Bericht 1</p>
+            <p>――――――――</p>
+            <p>Bericht 2</p>
+            <p>――――――――</p>
+            <p>Bericht 3</p>
+            <p>――――――――</p>
+            <p>Bericht 4</p>
+            <p>――――――――</p>
+            <p>Bericht 5</p>
+        </div>
+    </div>
+    <div class="text-left">
+        <h2 class="subheaders-h2">OVER ONS</h2>
+        <p>De imkervereniging Oegstgeest en omstreken strekt zich uit over de regio Oegstgeest, Leiden, Lisse, Leimuiden
+            en Alkemade. De imkervereniging stelt zich ten doel de kennis over het houden van bijen en de relatie van
+            bijen met hun (planten) omgeving te verbreden bij zowel de imkers, als bij het grotere publiek.
+        </p>
+
+        <br>
+        <h2 class="subheaders-h2">LIDMAATSCHAP</h2>
+        <p>
+            De imkervereniging-Oegstgeest is aangesloten bij de landelijke Nederlandse Bijenhoudersvereniging. Met een
+            lidmaatschap van de NBV bent u automatisch lid van één van de regio afdelingen. De NBV biedt u:
+        </p>
+        <p> - Belangenbehartiging van de imkerij in Nederland </p>
+
+        <p>    - Uitvoerig bijenteeltonderwijs programma </p>
+
+        <p>    - Zes keer per jaar ontvangst van het magazine BIJENhouden </p>
+
+        <p>    - Maandelijks het digitale Imkernieuws; </p>
+
+        <p>    - Wekelijks tips over het houden van bijen in het BijenBlog </p>
+
+        <p>    - Korting op entree voor bijeenkomsten en activiteiten met de NBV ledenpas; </p>
+
+        <p>    - Aanvullende <a href="https://www.bijenhouders.nl/over-de-nbv/verzekeringen">WA-verzekering</a> voor activiteiten die voortvloeien uit het houden van bijen; </p>
+
+        <p>    - Voorlichtingsmateriaal t.b.v presentaties </p>
+
+        <p>    - Verzekerd zijn van ondersteuning van collega imkers; </p>
+
+        <p>    - Voor al uw vragen kunt u zich wenden tot het <a href="https://www.bijenhouders.nl/over-de-nbv/lidmaatschap#aanmeldformulier">verenigingssecretariaat in Wageningen</a>. </p>
+        <br>
+        <p>
+            Informatie over contributie en een mogelijkheid tot aanmelding vindt u op de NBV website.
+        </p>
+        <br>
+        <p>
+            U kunt ook alleen donateur van de Oegstgeester Imkervereniging worden. Dat kunt u aanvragen via het
+            contactformulier.
+        </p>
+    </div>
 </main>
 <footer>
-
+    <p>| 2021 Imkervereniging Oegstgeest © |</p>
 </footer>
 </body>
 </html>
+
