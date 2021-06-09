@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\ContactPagina;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -14,10 +15,10 @@ class ContactController extends Controller
 
     }
 
-    /*public function store()
+    public function store()
     {
 
-        $contact = new Contact();
+        $contact = new ContactPagina();
         $contact->name = request('name');
         $contact->email = request('email');
         $contact->bericht = request('bericht');
@@ -25,5 +26,5 @@ class ContactController extends Controller
 
         return redirect('/');
 
-    }*/
+    }
 }
