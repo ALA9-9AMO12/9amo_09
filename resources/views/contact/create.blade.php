@@ -6,7 +6,7 @@
     <br><h1>Contact</h1>
     <br><hr>
     <div class="container">
-        <form action="/contact" method="POST">
+        <form action="contact" method="POST">
             <div class="form-group">
                 <label for="exampleInputName1">Naam</label>
                 <input type="name" name="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
