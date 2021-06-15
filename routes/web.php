@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'NavController@index');
+Route::get('/voor_imkers', 'NavController@voorImkers');
+Route::get('/cursussen', 'NavController@cursussen');
+Route::get('/nieuwsarchief', 'NavController@nieuwsarchief');
+Route::get('/artikelen', 'NavController@artikelen');
+Route::get('/imkersvereniging', 'NavController@imkersVereniging');
+Route::get('/contact', 'NavController@contact');
+Route::get('/login', 'NavController@login');
+Route::get('/admin', 'NavController@admin');
