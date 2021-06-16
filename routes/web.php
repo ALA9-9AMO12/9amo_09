@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::post('contact', 'ContactController@store');
 Route::get('/', 'NavController@index');
 Route::get('/voor_imkers', 'NavController@voorImkers');
