@@ -67,14 +67,6 @@
             padding-left: 20px;
         }
 
-        footer {
-            text-align: center;
-            background-color: lightgray;
-            padding: 60px;
-            margin: -20px;
-            margin-top: 30px;
-        }
-
         /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
         @media screen and (max-width: 500px) {
             .header a {

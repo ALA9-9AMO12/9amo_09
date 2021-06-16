@@ -1,6 +1,6 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark  p-3">
-  <a class="navbar-brand text-warning" href="/"><img class="animate__animated animate__rubberBand"style="max-height:40px;" src="/img/logo.png" />Imkersvereniging Leiden</a>
+  <a class="navbar-brand text-warning" href="/"><img class="animate__animated animate__rubberBand"style="max-height:40px;" src="/img/logo.png" />Imkersvereniging Oestgeest</a>
   <button class="navbar-toggler" type="button " data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon "></span>
   </button>
