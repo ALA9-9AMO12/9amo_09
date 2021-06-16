@@ -23,3 +23,4 @@ Route::get('/imkersvereniging', 'NavController@imkersVereniging');
 Route::get('contact', 'ContactController@create');
 Route::get('/login', 'NavController@login');
 Route::get('/admin', 'NavController@admin');
+
