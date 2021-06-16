@@ -13,12 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'NavController@index');
-Route::get('/voor_imkers', 'NavController@voorImkers');
-Route::get('/cursussen', 'NavController@cursussen');
-Route::get('/nieuwsarchief', 'NavController@nieuwsarchief');
-Route::get('/artikelen', 'NavController@artikelen');
-Route::get('/imkersvereniging', 'NavController@imkersVereniging');
-Route::get('/contact', 'NavController@contact');
-Route::get('/login', 'NavController@login');
-Route::get('/admin', 'NavController@admin');
+Route::get('/', function () {
+    return view('home');
+});
+
+Route::get('contact', 'ContactController@create');
+Route::post('contact', 'ContactController@store');
