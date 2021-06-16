@@ -1,6 +1,4 @@
-@extends('layout')
-
-
+@extends('app')
 @section('content')
 
     <br><h1>Contact</h1>
