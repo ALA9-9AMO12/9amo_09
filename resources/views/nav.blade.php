@@ -14,5 +14,7 @@
       <a class="nav-item nav-link text-warning" href="/imkersvereniging"> Imkersvereniging </a>
       <a class="nav-item nav-link text-warning" href="/contact"> Contact </a>
     </div>
+
   </div>
+    <div><a class="nav-item nav-link text-warning" href="/login">Login</a></div>
 </nav>

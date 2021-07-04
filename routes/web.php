@@ -24,3 +24,8 @@ Route::get('contact', 'ContactController@create');
 Route::get('/login', 'NavController@login');
 Route::get('/admin', 'NavController@admin');
 
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
